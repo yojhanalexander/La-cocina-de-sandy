@@ -5,4 +5,10 @@ header{
 }
 body{
     background-color: #4D5923;
+    margin: 0px;
+}
+header img{
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
