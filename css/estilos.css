@@ -3,7 +3,7 @@ body{
     margin: 0px;
     font-family: 'Oswald', sans-serif;
 }
-
+/*HEADER*/
 header{
     width: 100%;
     height: 80px;
@@ -61,3 +61,28 @@ header{
     text-decoration: underline;
 
 }
+/*END HEADER*/
+
+/*BUSCADOR*/
+.main{
+    height: 300px;
+}
+.main__title{
+    font-size: 25px;
+    color: white;
+}
+input{
+    background-color: #4d5923be;
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 20px;
+    width: 70%;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+/*END BUSCADOR*/
