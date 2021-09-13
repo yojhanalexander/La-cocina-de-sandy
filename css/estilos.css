@@ -1,5 +1,5 @@
 body{
-    background-color: #4D5923;
+    background-color: #5C5D73;
     margin: 0px;
     font-family: 'Oswald', sans-serif;
 }
@@ -14,9 +14,9 @@ header{
 }
 
 .header__img{
-    width: 200px;
-    margin-top: 10px;
-    margin-left: 10px;
+    width: 150px;
+    
+    margin: 30px;
 }
 .header__menu{
     margin-right: 20px;
@@ -72,7 +72,7 @@ header{
     color: white;
 }
 input{
-    background-color: #4d5923be;
+    background-color: #5c5d73d2;
     border: 2px solid whitesmoke;
     border-radius: 35px;
     color: white;
@@ -114,6 +114,7 @@ input{
     transition: 450ms all;
     transform-origin: center left;
     position: relative;
+    
 }
 .carousel-item:hover ~ .carousel-item{
     transform: translate3d(100px, 0, 0);
