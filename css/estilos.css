@@ -86,3 +86,83 @@ input{
     color: white;
 }
 /*END BUSCADOR*/
+
+/*CARRUSEL*/
+.carousel{
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+}
+.carousel-Container{
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    
+    
+}
+.carousel-item{
+    background-color: tomato;
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 450ms all;
+    transform-origin: center left;
+    position: relative;
+}
+.carousel-item:hover ~ .carousel-item{
+    transform: translate3d(100px, 0, 0);
+}
+.carousel__container:hover .carousel-item{
+    opacity: 0.3;
+    border-radius: 20px;
+
+}
+
+.carousel__container:hover .carousel-item:hover{
+    transform: scale(1.2);
+    opacity: 1.0;
+    
+
+}
+.carousel-item__img{
+    width: 100%;
+}
+.carousel-item__detais{
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0, 0, 0, 0) 100%);
+    font-size: 10px;
+    opacity: 0;
+    transition: 450ms opacity;
+    padding: 5px;
+    position: absolute;
+    inset: 0 0 0 0;
+    display: flex;
+    align-items: flex-end;
+
+    
+}
+.carousel-item:hover .carousel-item__detais:hover{
+    opacity: 1;
+
+
+}
+.carousel-item__details--title{
+    
+}
+.carousel-item--icon{
+    width: 25px;
+    
+    
+}
+.carousel-item__details--title, .carousel-item__details--subtitle  {
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+/*END CARRUSEL*/
